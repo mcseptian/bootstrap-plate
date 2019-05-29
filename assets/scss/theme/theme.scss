@@ -7,3 +7,7 @@
 // If you want to override variable bootstrap for consistency, 
 // you can put it in partials/_bs.scss
 //
+
+.btn-secondary {
+	color: $white;
+}

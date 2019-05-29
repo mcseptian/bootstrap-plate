@@ -33,7 +33,7 @@ module.exports = function(grunt){
       build: {
         files: {
           'assets/js/app.min.js': ['assets/js/app.js'],
-          'assets/js/plugin.min.js': ['assets/js/plugins/owl.carousel.min.js', 'assets/js/plugins/select2.min.js']
+          'assets/js/plugin.min.js': [ 'assets/js/plugins/bootstrap.min.js', 'assets/js/plugins/owl.carousel.min.js', 'assets/js/plugins/select2.min.js']
         }
       }
     },
