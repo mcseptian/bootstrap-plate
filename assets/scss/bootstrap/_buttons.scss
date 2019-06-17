@@ -112,6 +112,13 @@ fieldset:disabled a.btn {
   @include button-size($btn-padding-y-sm, $btn-padding-x-sm, $btn-font-size-sm, $btn-line-height-sm, $btn-border-radius-sm);
 }
 
+//
+// Button Style
+//
+
+.btn-round {
+  @include border-radius(30px, 0);
+}
 
 //
 // Block button
