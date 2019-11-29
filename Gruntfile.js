@@ -1,13 +1,16 @@
+const sass = require('node-sass');
+
 module.exports = function(grunt){
   grunt.initConfig({
     sass: {
       options: {
         style: 'compressed',
+        implementation: sass,
         sourceMap: true
       },
       dist: {
         files: {
-          'assets/css/theme.min.css': ['assets/scss/theme/theme.scss']
+          'assets/css/style.min.css': ['assets/scss/style.scss']
         }
       }
     },
@@ -16,15 +19,15 @@ module.exports = function(grunt){
         options: {  
           banner: '/* My minified plugin css file */',
           sourceMap: true
-        },  
+        },
         files: {  
           'assets/css/plugin.min.css': [  
               'assets/css/plugins/owl.carousel.min.css',
               'assets/css/plugins/select2.min.css'
-            ]  
-        }  
+            ]
+        }
       }  
-    },  
+    },
     uglify: {
       options: {  
           compress: true,
@@ -39,7 +42,7 @@ module.exports = function(grunt){
     },
     codekit: {
       files: {
-        src: ['assets/kit/*.kit'],
+        src: ['assets/kit/**/*.kit'],
         dest: ''
       }
     },
@@ -75,8 +78,7 @@ module.exports = function(grunt){
           base: '',
           hostname: '0.0.0.0',
           protocol: 'http',
-          livereload: true,
-          open: true,
+          livereload: true
         }
       }
     },
