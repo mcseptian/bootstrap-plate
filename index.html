@@ -24,78 +24,72 @@
 </head>
 <body>
 
-<body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
+<section>
+	<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+    <a class="navbar-brand flex-lg-fill" href="#">
+        <img src="brand.png" alt="brand" sizes="" srcset="">
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#Home">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#About">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Team">Our Team</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
+                <a class="nav-link dropdown-toggle" href="#Services" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Services
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#Services">Public Relations</a>
+                    <a class="dropdown-item" href="#Services">Social Media marketing</a>
+                    <a class="dropdown-item" href="#Services">Promotions of Website</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#Services">Events & Meetings</a>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <a class="nav-link" href="#Case">Case Studies</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
             </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
     </div>
 </nav>
 	<footer class="mastfoot bg-white py-4 border-top">
     <div class="inner container">
          <div class="row">
-         	<div class="col-md-6 d-flex align-items-center justify-content-md-start justify-content-center">
-         		<p class="mb-0">© 2019. All Right Reserved</p>
-         	</div>
-           
-            <div class="col-md-6">
-            	<nav class="nav nav-mastfoot justify-content-md-end justify-content-center">
-	                <a class="nav-link" href="#">
-	                	<i class="icon-facebook"></i>
-	                </a>
-	                <a class="nav-link" href="#">
-	                	<i class="icon-twitter"></i>
-	                </a>
-	                <a class="nav-link" href="#">
-	                	<i class="icon-instagram"></i>
-	                </a>
-	                <a class="nav-link" href="#">
-	                	<i class="icon-linkedin"></i>
-	                </a>
-	                <a class="nav-link" href="#">
-	                	<i class="icon-youtube"></i>
-	                </a>
-	                <a class="nav-link" href="#">
-	                	<i class="icon-pinterest"></i>
-	                </a>
+         	<div class="col-md-6 align-items-center justify-content-md-start justify-content-center">
+				<nav class="nav nav-mastfoot">
+					<button class="nav-link btn rounded-circle facebook-color">
+						<i class="fab fa-facebook-f"></i>
+	                </button>
+	                <button class="nav-link btn rounded-circle twitter-color">
+						<i class="fab fa-twitter"></i>
+					</button>
 	            </nav>
+				<p class="mb-0">Copyright © 2018 by Muffin Group. All Right Reserved</p>
+			</div>
+			
+            <div class="col-md-6 justify-content-md-end justify-content-center">
             </div>
             
         </div>
     </div>
 </footer>
-</body>
+</section>
 	<!-- External JS -->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-
+	<script src="https://unpkg.com/@popperjs/core@2"></script>
+	
 	<!-- Plugin JS -->
 	<script src="assets/js/plugin.min.js "></script>
 	
