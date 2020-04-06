@@ -6980,6 +6980,16 @@ button.close {
   right: 0;
   bottom: 0; }
 
+.hero {
+  position: relative;
+  width: 100%;
+  height: 480px;
+  min-height: 25vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5rem 0; }
+
 /**
  * Owl Carousel v2.3.4
  * Copyright 2013-2018 David Deutsch
@@ -7282,5 +7292,22 @@ button.close {
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: #fee52c; }
+
+.card__wrapper {
+  position: absolute;
+  top: 70%;
+  right: 20%;
+  display: block;
+  padding: 2rem;
+  background-color: #fee52c;
+  max-width: 50%; }
+  .card__wrapper .card__title {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    line-height: 1;
+    font-size: 3rem;
+    font-weight: 500;
+    text-decoration: none; }
 
 /*# sourceMappingURL=style.min.css.map */

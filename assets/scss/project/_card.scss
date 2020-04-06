@@ -1,0 +1,18 @@
+.card__wrapper {
+  .card__title {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    line-height: 1;
+    font-size: 3rem;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  position: absolute;
+  top: 70%;
+  right: 20%;
+  display: block;
+  padding: 2rem;
+  background-color: #fee52c;
+  max-width: 50%;
+}
