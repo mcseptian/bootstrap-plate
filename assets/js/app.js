@@ -9,7 +9,7 @@
         // ==============================================================================================
 
         init: function($) {
-            // app.select2();
+            app.slide();
         },
 
         onResize: function() {
@@ -20,9 +20,16 @@
         // Your function here
         // * Don't forget to use proper function name to describes your function
         // ======================================================================
-        select2: function() {
+        slide: function() {
             $(document).ready(function() {
-                $("select").select2();
+                $('.owl-carousel').owlCarousel({
+                    loop:true,
+                    margin: 100,
+                    nav:true,
+                    items: 1,
+                    dots: true,
+                    navText: ['<button class="btn icon--large rounded-circle bgcolor--yellow"><i class="fa fa-arrow-left text-dark"></i></button>','<button class="btn icon--large rounded-circle bgcolor--yellow"><i class="fa fa-arrow-right text-dark"></i></button>']
+                })
             });
         },
     }
