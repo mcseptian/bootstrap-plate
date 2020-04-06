@@ -29,11 +29,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
   </head>
 
-  <body>
+  <body class="container">
 
 <!-- section 1 -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-  <a class="navbar-brand flex-lg-fill" href="#">
+  <a class="navbar-brand flex-lg-fill" href="#hero">
     <img src="assets/design/brand.png" class="img-fluid" alt="brand image" />
   </a>
   <button
@@ -53,15 +53,15 @@
   >
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#Home"
+        <a class="nav-link" href="#home"
           >Home<span class="sr-only">(current)</span></a
         >
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#About">About Us</a>
+        <a class="nav-link" href="#about">About Us</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#Team">Our Team</a>
+        <a class="nav-link" href="#team">Our Team</a>
       </li>
       <li class="nav-item dropdown">
         <a
@@ -76,18 +76,18 @@
           Services
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#Services">Public Relations</a>
-          <a class="dropdown-item" href="#Services">Social Media marketing</a>
-          <a class="dropdown-item" href="#Services">Promotions of Website</a>
+          <a class="dropdown-item" href="#services">Public Relations</a>
+          <a class="dropdown-item" href="#services">Social Media marketing</a>
+          <a class="dropdown-item" href="#services">Promotions of Website</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#Services">Events & Meetings</a>
+          <a class="dropdown-item" href="#services">Events & Meetings</a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#Case">Case Studies</a>
+        <a class="nav-link" href="#case">Case Studies</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#Contact">Contact</a>
+        <a class="nav-link" href="#contact">Contact</a>
       </li>
     </ul>
   </div>
@@ -95,7 +95,7 @@
 
 <!-- section 2 -->
 	<main>
-  <div class="d-flex flex-column p-2" id="About">
+  <div class="d-flex flex-column p-2" id="#hero">
   <h1 class="col-sm-12 col-md-6 col-lg-6 mb-5">
     We engage positive communication of recipients with your brand.
   </h1>
@@ -105,24 +105,35 @@
         About us <i class="fa fa-arrow-right"></i>
       </span>
     </button>
-    <a href="#About" class="icon--large rounded-circle bgcolor--yellow">
+    <a href="#about" class="icon--large rounded-circle bgcolor--yellow">
       <i class="fa fa-arrow-down text-dark"></i>
     </a>
   </div>
 </div>
-
-  
-  <article class="d-flex flex-column">
-  <span class="text-primary"></span>
-  <h2></h2>
-  <p></p>
-  <button class="btn rounded-pill bg-gradient-primary">
-    <i class="fa fa-arrow-right"></i>
-  </button>
+  <article class="row" id="#about">
+  <div class="col-sm-12 col-md-6 col-lg-6 mb-5"></div>
+  <div class="col-sm-12 col-md-6 col-lg-6 mb-5">
+    <div class="text-primary font-weight-bold text-center">Our services</div>
+    <h2 class="text-center">We help you win any games.</h2>
+    <p class="text-muted">
+      Our premium products provide good electrical conductivity. The optics switches deliver superior audio and tactile feedback. 100 million times keystroke test, 50 grams’ key force and 4.0+/-0.2mm stroke travel. An optimal choice for gamer, programmer, writer, typist and etc.
+    </p>
+    <p class="text-muted">
+      This keyboard switch is made of top graded POM, PC and metal material, with matte-finish texture, sturdy and robust enough to protect it from scratch. 
+    </p>
+    <button class="btn rounded-pill bg-gradient-primary text-light">
+      About us <i class="fa fa-arrow-right"></i>
+    </button>
+  </div>
 </article>
 
-  <div id="Case">
-  <div class="text-primary text-center">Our Clients</div>
+  <article class="row" id="services">
+  <div class="col-sm-12 col-md-6 col-lg-6 mb-5"></div>
+  <div class="col-sm-12 col-md-6 col-lg-6 mb-5"></div>
+</article>
+
+  <div id="case">
+  <div class="text-primary font-weight-bold text-center">Our Clients</div>
   <h2 class="text-center">Trust our Client</h2>
 
   <div class="owl-carousel owl-theme">
@@ -214,7 +225,7 @@
             </span>
           </a>
           <a
-            href="#Hero"
+            href="#hero"
             class="nav-link position-fixed mr-2 text-dark bottom-right"
           >
             <span class="font-weight-bold">Back to top</span>
