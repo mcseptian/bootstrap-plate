@@ -1,0 +1,39 @@
+.owl-dots {
+  display: inline-block;
+  text-align: center;
+}
+.owl-dot {
+  min-width: 16px;
+  width: 16px;
+  min-height: 16px;
+  height: 16px;
+  margin: 1.25rem 0;
+  color: #e4e9ed;
+  &.active {
+    color: #fee42c;
+  }
+}
+.owl-nav {
+  position: absolute;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: auto;
+  width: 100%;
+  top: 25%;
+}
+.owl-prev,
+.owl-next {
+  color: #000;
+  background-color: #fee52c;
+  border-radius: 100%;
+  border: none;
+  padding: 8px;
+}
+.owl-carousel,
+.owl-carousel.owl-loaded {
+  display: flex;
+  flex-direction: column;
+}
