@@ -6991,9 +6991,11 @@ button.close {
   background-size: cover;
   margin: 5rem 0 10rem; }
 
-@media screen and (max-width: 600px) {
-  hero {
-    margin: 5rem 0 15rem; } }
+@media screen and (max-width: 768px) {
+  .hero {
+    margin: 5rem 0 15rem; }
+    .hero .card__wrapper {
+      max-width: 80%; } }
 
 /**
  * Owl Carousel v2.3.4
@@ -7307,12 +7309,6 @@ button.close {
   background-color: #fee52c;
   max-width: 50%; }
   .card__wrapper .card__title {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     color: black;
     line-height: 1;
     font-size: 3rem;
@@ -7321,12 +7317,17 @@ button.close {
     text-align: left; }
 
 .card__wrapper--small {
+  min-height: 240px;
+  align-items: center;
   max-width: 320px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap; }
   .card__wrapper--small .card__title {
-    display: inline; }
+    display: inline-block;
+    height: 150px;
+    margin: auto;
+    padding: 2.5rem 0; }
   .card__wrapper--small .card__image {
     display: block;
     margin: auto;

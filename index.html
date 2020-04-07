@@ -18,7 +18,7 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="assets/css/plugins/font-awesome/all.css"
+      href="assets/css/plugins/font-awesome/all.min.css"
     />
 
     <!-- CSS -->
@@ -66,7 +66,7 @@
       <li class="nav-item dropdown">
         <a
           class="nav-link dropdown-toggle"
-          href="#Services"
+          href="#"
           id="navbarDropdown"
           role="button"
           data-toggle="dropdown"
@@ -95,29 +95,33 @@
 
 	<!-- section 2 -->
 		
-  <section class="container d-flex flex-column p-2" id="services">
-  <h1 class="col-sm-12 col-md-6 col-lg-6 mb-5">
+  <section class="row p-2" id="about">
+  <h1 class="col-sm-12 col-md-6 col-lg-6 my-5">
     We engage positive communication of recipients with your brand.
   </h1>
-  <div class="d-flex flex-row justify-content-between">
-    <button class="btn rounded-pill bgcolor--gradient-blue">
-      <span class="text-light">
-        About us <i class="fa fa-arrow-right"></i>
-      </span>
-    </button>
-    <a href="#about" class="icon--large rounded-circle bgcolor--yellow">
-      <i class="fa fa-arrow-down text-dark"></i>
-    </a>
+  <div class="col-sm-12 col-md-12 col-lg-12">
+    <div class=" d-flex flex-row justify-content-between">
+      <button class="btn rounded-pill bgcolor--gradient-blue">
+        <span class="text-light">
+          About us <i class="fa fa-arrow-right"></i>
+        </span>
+      </button>
+      <a href="#about" class="icon--large rounded-circle bgcolor--yellow">
+        <i class="fa fa-arrow-down text-dark"></i>
+      </a>
+    </div>
   </div>
 </section>
   
 <section
-  class="hero container-fluid"
-  id="#hero"
+  class="hero row"
+  id="hero"
   style="background-image: url(assets/design/hero-image.jpg);"
 >
   <div class="card__wrapper col-sm-12 col-md-6 col-lg-6 mb-5">
-    <h3 class="card__title" style="background-image: url(assets/design/hero-image.jpg);">"</h3>
+    <h3 class="card__title">
+      <img src="assets/design/quote-left-solid.svg" alt="quote" width="56px" height="56px">
+    </h3>
     <blockquote class="blockquote">
       <p class="mb-0 text-dark text-bold">
         The optics technology allows a longer lifespan and much more comfortable
@@ -130,105 +134,78 @@
   </div>
 </section>
 
-  <section class="container my-5" id="#product">
-  <div class="col-sm-12 col-md-12 col-lg-8 my-5 mx-auto">
-    <div class="text-primary font-weight-bold text-center">Our services</div>
-    <h2 class="text-center mb-3">We help you win any games.</h2>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-6">
-          <article class="row card__wrapper--small">
-            <img
-              src="assets/design/blue-smt.jpg"
-              alt="blue"
-              class="col-4 card__image"
-            />
-            <h2 class="col-8 card__title">Optical Blue Switch</h2>
-            <p class="col-12 text-muted">
-              Our premium products provide good electrical conductivity. The
-              optics switches deliver superior audio and tactile feedback. 100
-              million times keystroke test, 50 grams’ key force and 4.0+/-0.2mm
-              stroke travel. An optimal choice for gamer, programmer, writer,
-              typist and etc.
-            </p>
-          </article>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6">
-          <article class="row card__wrapper--small">
-            <img
-              src="assets/design/black-smt.jpg"
-              alt="black"
-              class="col-4 card__image"
-            />
-            <h2 class="col-8 card__title">Optical Black Switch</h2>
-            <p class="col-12 text-muted">
-              Our premium products provide good electrical conductivity. The
-              optics switches deliver superior audio and tactile feedback. 100
-              million times keystroke test, 50 grams’ key force and 4.0+/-0.2mm
-              stroke travel. An optimal choice for gamer, programmer, writer,
-              typist and etc.
-            </p>
-          </article>
-        </div>
-        <div class="w-100"></div>
-        <div class="col-sm-12 col-md-6 col-lg-6">
-          <article class="row card__wrapper--small">
-            <img
-              src="assets/design/brown-smt.jpg"
-              alt="brown"
-              class="col-4 card__image"
-            />
-            <h2 class="col-8 card__title">Optical Brown Switch</h2>
-            <p class="col-12 text-muted">
-              Our premium products provide good electrical conductivity. The
-              optics switches deliver superior audio and tactile feedback. 100
-              million times keystroke test, 50 grams’ key force and 4.0+/-0.2mm
-              stroke travel. An optimal choice for gamer, programmer, writer,
-              typist and etc.
-            </p>
-          </article>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6">
-          <article class="row card__wrapper--small">
-            <img
-              src="assets/design/red-smt.jpg"
-              alt="red"
-              class="col-4 card__image"
-            />
-            <h2 class="col-8 card__title">Optical Brown Switch</h2>
-            <p class="col-12 text-muted">
-              Our premium products provide good electrical conductivity. The
-              optics switches deliver superior audio and tactile feedback. 100
-              million times keystroke test, 50 grams’ key force and 4.0+/-0.2mm
-              stroke travel. An optimal choice for gamer, programmer, writer,
-              typist and etc.
-            </p>
-          </article>
+  <section class="container my-5" id="product">
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-8 my-5 mx-auto">
+      <div class="text-primary font-weight-bold text-center">Our products</div>
+      <h2 class="text-center mb-3">We help you win any games.</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <article class="row card__wrapper--small">
+              <img src="assets/design/blue-smt.jpg" alt="blue" class="col-4 card__image" />
+              <h4 class="col-8 card__title">Optical Blue Switch</h4>
+                <p class="col-12 text-muted">
+                  Blue is for clicky. Clicky switches work the same way as tactile ones. But they offer a distinct
+                  “click” sound when the key is activated.
+                </p>
+            </article>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <article class="row card__wrapper--small">
+              <img src="assets/design/black-smt.jpg" alt="black" class="col-4 card__image" />
+              <h4 class="col-8 card__title">Optical Black Switch</h4>
+                <p class="col-12 text-muted">
+                  This black switch is smooth series. An optimal choice for gamer, programmer, writer, typist and etc.
+                </p>
+            </article>
+          </div>
+          <div class="w-100"></div>
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <article class="row card__wrapper--small">
+              <div class="row col-12">
+                <img src="assets/design/brown-smt.jpg" alt="brown" class="col-4 card__image" />
+                <h4 class="col-8 card__title">Optical Brown Switch</h4>
+                  <p class="col-12 text-muted">
+                    Brown is for tactile. They provide a noticeable bump in the middle of travel to let you know that
+                    your key press has been registered.
+                  </p>
+            </article>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <article class="row card__wrapper--small">
+              <img src="assets/design/red-smt.jpg" alt="red" class="col-4 card__image" />
+              <h4 class="col-8 card__title">Optical Red Switch</h4>
+                <p class="col-12 text-muted">
+                  Red is for linear. They move straight up and down without any tactile feedback or clicking noise. The
+                  smooth keystroke allows for more rapid actuation, making them the preferred switch for gamers.
+                </p>
+            </article>
+          </div>
         </div>
       </div>
+      <button class="btn rounded-pill bgcolor--gradient-blue text-light ml-3">
+        Our services <i class="fa fa-arrow-right"></i>
+      </button>
     </div>
-    <button class="btn rounded-pill bgcolor--gradient-blue text-light">
-      Our services <i class="fa fa-arrow-right"></i>
-    </button>
   </div>
 </section>
-
-  <section class="row" id="#about">
-  <div class="col-sm-12 col-md-6 col-lg-6 mb-5 hero" style="background-image: url(assets/design/about-background.png);">
+  <section class="row" id="services">
+  <div class="col-sm-12 col-md-12 col-lg-6 mb-5 hero" style="background-image: url(assets/design/about-background.png);">
     <div class="card__wrapper">
-      <h3 class="card__title" style="background-image: url(assets/design/about-background.png);"><i class="fa fa-clock"></i></h3>
+      <h3 class="card__title fa fa-clock"></h3>
       <blockquote class="blockquote">
         <p class="mb-0 text-dark text-bold">Trust our expertise over 45 years Ceramics experience</p>
       </blockquote>
     </div>
   </div>
-  <div class="col-sm-12 col-md-6 col-lg-6 my-5">
+  <div class="col-sm-12 col-md-12 col-lg-6 my-5 p-5 mt-5">
     <div class="text-primary font-weight-bold text-center">Our services</div>
     <h2 class="text-center">We help you win any games.</h2>
-    <p class="text-muted">
+    <p class="text-muted p-2">
       Our premium products provide good electrical conductivity. The optics switches deliver superior audio and tactile feedback. 100 million times keystroke test, 50 grams’ key force and 4.0+/-0.2mm stroke travel. An optimal choice for gamer, programmer, writer, typist and etc.
     </p>
-    <p class="text-muted">
+    <p class="text-muted p-2">
       This keyboard switch is made of top graded POM, PC and metal material, with matte-finish texture, sturdy and robust enough to protect it from scratch. 
     </p>
     <button class="btn rounded-pill bgcolor--gradient-blue text-light">
@@ -239,10 +216,10 @@
 
   <div  class="container d-flex flex-column p-2 my-5" id="case">
   <div class="text-primary font-weight-bold text-center">Our Clients</div>
-  <h2 class="text-center">Trust our Client</h2>
+  <h2 class="text-center mb-4">Trust our Client</h2>
 
   <div class="owl-carousel owl-theme">
-    <div class="d-flex justify-content-center align-items-center">
+    <div class="row justify-content-center align-items-center">
 
       <article class="col-sm-12 col-md-6 col-lg-6 mb-5">
         <img style="background-image:url(assets/design/client-Kayla_Person.jpg)" class="rounded-circle mb-3 slider__item" />
@@ -250,7 +227,7 @@
         <p>Understanding various aspects of the global wireless keyboard market, Persistence Market Research has conducted a research study on wireless keyboards across the globe and has presented all insights in a recent research publication titled “Wireless Keyboard Market: Global Industry Analysis (2012-2016) and Forecast (2017-2025).”</p>
       </article>
     </div>
-    <div class="d-flex justify-content-center align-items-center">
+    <div class="row justify-content-center align-items-center">
 
       <article class="col-sm-12 col-md-6 col-lg-6 mb-5">
         <img style="background-image:url(assets/design/client-Keanu_Reeves.jpg)" class="rounded-circle mb-3 slider__item" />
@@ -258,7 +235,7 @@
         <p>With OUTEMU optical-mechanical brown switches, you will get a chance to enjoy the most delighting typing experience. Each input will be recorded and delivered at the moment you click them.</p>
       </article>
     </div>
-    <div class="d-flex justify-content-center align-items-center">
+    <div class="row justify-content-center align-items-center">
 
       <article class="col-sm-12 col-md-6 col-lg-6 mb-5">
         <img style="background-image:url(assets/design/client-Parson_Root.jpg)" class="rounded-circle mb-3 slider__item" />
@@ -272,38 +249,39 @@
 
 
 	<!-- section 3 -->
-		<footer class="container mastfoot bg-white py-4 border-top">
-  <div class="inner container">
+		<footer class="container bg-white py-4 border-top">
+  <div class="container" id="contact">
     <div class="row justify-content-between flex-md-row-reverse">
-      <div class="row col-md-6 justify-content-md-end justify-content-center">
-        <div class="col-md-6">
-          <p>Contact us</p>
+      <div class="col-md-6">
+        <div class="row justify-content-md-end justify-content-center">
+          <div class="col-md-6">
+            <p>Contact us</p>
 
-          <address>
-            <a class="text-muted" href="mailto:sale@cngaote.com.cn"
-              >sale@cngaote.com.cn</a
-            ><br />
-            <a class="text-muted" href="tel:+8676987816655"
-              >+86-769-87816655</a
-            >
-            <a class="text-muted" href="http://www.dggaote.com.com"
-              >+61 (0) 3 8376-6284</a
-            >
-          </address>
-        </div>
-        <div class="col-md-6">
-          <p>Location</p>
+            <address>
+              <a class="text-muted" href="mailto:sale@cngaote.com.cn"
+                >sale@cngaote.com.cn</a
+              ><br />
+              <a class="text-muted" href="tel:+8676987816655"
+                >+86-769-87816655</a
+              >
+              <a class="text-muted" href="http://www.dggaote.com.com"
+                >+61 (0) 3 8376-6284</a
+              >
+            </address>
+          </div>
+          <div class="col-md-6">
+            <p>Location</p>
 
-          <address>
-            <span class="text-muted"> Zhenxingwei Industrial Zone</span><br />
-            <span class="text-muted"> Tangxia Town</span><br />
-            <span class="text-muted"> Dongguan City</span><br />
-            <span class="text-muted"> Guandong Province</span><br />
-            <span class="text-muted"> P.R.C</span>
-          </address>
+            <address>
+              <span class="text-muted"> Zhenxingwei Industrial Zone</span><br />
+              <span class="text-muted"> Tangxia Town</span><br />
+              <span class="text-muted"> Dongguan City</span><br />
+              <span class="text-muted"> Guandong Province</span><br />
+              <span class="text-muted"> P.R.C</span>
+            </address>
+          </div>
         </div>
       </div>
-
       <div
         class="col-md-6 align-items-center justify-content-md-start justify-content-center"
       >
@@ -339,7 +317,9 @@
             </span>
           </a>
         </nav>
-        <p class="mb-0">© 2019 by Dongguan Gaote Electronics Co.,Ltd. All Rights Reserved.</p>
+        <p class="mb-0">
+          © 2019 by Dongguan Gaote Electronics Co.,Ltd All Rights Reserved.
+        </p>
       </div>
     </div>
   </div>

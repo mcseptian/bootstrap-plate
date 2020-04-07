@@ -1,11 +1,11 @@
 .card__wrapper {
   .card__title {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // background-clip: text;
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
     color: black;
     line-height: 1;
     font-size: 3rem;
@@ -23,12 +23,17 @@
 }
 
 .card__wrapper--small {
+  min-height: 240px;
+  align-items: center;
   max-width: 320px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   .card__title {
-    display: inline;
+    display: inline-block;
+    height: 150px;
+    margin: auto;
+    padding: 2.5rem 0;
   }
 
   .card__image {
