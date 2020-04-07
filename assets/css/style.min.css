@@ -6953,7 +6953,8 @@ button.close {
   background-color: #2097fd; }
 
 .bgcolor--gradient-blue {
-  background-color: linear-gradient(270deg, #35cff8, #2097fd); }
+  background-image: linear-gradient(270deg, #35cff8, #2097fd);
+  background-origin: border-box; }
 
 .header__bgcolor {
   background-color: #163851; }
