@@ -23,12 +23,15 @@
 }
 
 .card__wrapper--small {
+  min-height: 240px;
+  align-items: center;
   max-width: 320px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   .card__title {
-    display: inline;
+    display: inline-block;
+    height: 150px;
   }
 
   .card__image {
