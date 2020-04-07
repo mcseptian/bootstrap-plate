@@ -7326,7 +7326,8 @@ button.close {
   .card__wrapper--small .card__title {
     display: inline-block;
     height: 150px;
-    margin: auto; }
+    margin: auto;
+    padding: 2.5rem 0; }
   .card__wrapper--small .card__image {
     display: block;
     margin: auto;
