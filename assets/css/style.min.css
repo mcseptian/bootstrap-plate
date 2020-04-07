@@ -6991,9 +6991,11 @@ button.close {
   background-size: cover;
   margin: 5rem 0 10rem; }
 
-@media screen and (max-width: 600px) {
-  hero {
-    margin: 5rem 0 15rem; } }
+@media screen and (max-width: 768px) {
+  .hero {
+    margin: 5rem 0 15rem; }
+    .hero .card__wrapper {
+      max-width: 80%; } }
 
 /**
  * Owl Carousel v2.3.4

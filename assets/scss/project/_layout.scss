@@ -13,8 +13,11 @@
   background-size: cover;
   margin: 5rem 0 10rem;
 }
-@media screen and (max-width: 600px) {
-  hero {
+@media screen and (max-width: 768px) {
+  .hero {
     margin: 5rem 0 15rem;
+    .card__wrapper{
+      max-width: 80%;
+    }
   }
 }
