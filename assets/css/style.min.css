@@ -7325,7 +7325,8 @@ button.close {
   flex-wrap: wrap; }
   .card__wrapper--small .card__title {
     display: inline-block;
-    height: 150px; }
+    height: 150px;
+    margin: auto; }
   .card__wrapper--small .card__image {
     display: block;
     margin: auto;
