@@ -1,0 +1,17 @@
+.icon {
+  display: inline-block;
+  min-width: 24px;
+  width: 24px;
+  min-height: 24px;
+  height: 24px;
+  text-align: center;
+}
+
+.icon--large {
+  display: inline-block;
+  text-align: center;
+  padding: 6px 12px;
+  i {
+    line-height: 14px;
+  }
+}

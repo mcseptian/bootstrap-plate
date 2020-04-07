@@ -1,0 +1,46 @@
+.card__wrapper {
+  .card__title {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    line-height: 1;
+    font-size: 3rem;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: left;
+  }
+  position: absolute;
+  top: 70%;
+  right: 20%;
+  display: block;
+  padding: 2rem;
+  background-color: #fee52c;
+  max-width: 50%;
+}
+
+.card__wrapper--small {
+  max-width: 320px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  .card__title {
+    display: inline;
+  }
+
+  .card__image {
+    display: block;
+    margin: auto;
+    min-width: 56px;
+    width: 100%;
+    min-height: 56px;
+    height: 100%;
+  }
+  p {
+    flex-grow: 1;
+    width: 100%;
+  }
+}

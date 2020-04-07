@@ -1,105 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Bootstrap Plate</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Landing page</title>
+    <meta name="description" content="Landing page" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/css/plugins/font-awesome/all.css">
-    
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/plugins/font-awesome/all.css"
+    />
+
     <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/plugin.min.css">
-    <link rel="stylesheet" href="assets/css/style.min.css">
-    
-    
+    <link rel="stylesheet" href="assets/css/plugin.min.css" />
+    <link rel="stylesheet" href="assets/css/style.min.css" />
+
     <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+  </head>
 
-</head>
-<body>
-
-<body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-    </div>
-</nav>
-	<footer class="mastfoot bg-white py-4 border-top">
-    <div class="inner container">
-         <div class="row">
-         	<div class="col-md-6 d-flex align-items-center justify-content-md-start justify-content-center">
-         		<p class="mb-0">© 2019. All Right Reserved</p>
-         	</div>
-           
-            <div class="col-md-6">
-            	<nav class="nav nav-mastfoot justify-content-md-end justify-content-center">
-	                <a class="nav-link" href="#">
-	                	<i class="icon-facebook"></i>
-	                </a>
-	                <a class="nav-link" href="#">
-	                	<i class="icon-twitter"></i>
-	                </a>
-	                <a class="nav-link" href="#">
-	                	<i class="icon-instagram"></i>
-	                </a>
-	                <a class="nav-link" href="#">
-	                	<i class="icon-linkedin"></i>
-	                </a>
-	                <a class="nav-link" href="#">
-	                	<i class="icon-youtube"></i>
-	                </a>
-	                <a class="nav-link" href="#">
-	                	<i class="icon-pinterest"></i>
-	                </a>
-	            </nav>
-            </div>
-            
+<body class="container">
+	
+	<!-- section 1 -->
+		<nav class="container navbar navbar-expand-lg navbar-light bg-transparent">
+  <a class="navbar-brand flex-lg-fill" href="#hero">
+    <img src="assets/design/brand.png" class="img-fluid" alt="brand image" />
+  </a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div
+    class="collapse navbar-collapse justify-content-end"
+    id="navbarSupportedContent"
+  >
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home"
+          >Home<span class="sr-only">(current)</span></a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#hero">Our Team</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#Services"
+          id="navbarDropdown"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#services">Public Relations</a>
+          <a class="dropdown-item" href="#services">Social Media marketing</a>
+          <a class="dropdown-item" href="#services">Promotions of Website</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#services">Events & Meetings</a>
         </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#case">Case Studies</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+	<!-- section 2 -->
+		
+  <section class="container d-flex flex-column p-2" id="services">
+  <h1 class="col-sm-12 col-md-6 col-lg-6 mb-5">
+    We engage positive communication of recipients with your brand.
+  </h1>
+  <div class="d-flex flex-row justify-content-between">
+    <button class="btn rounded-pill bgcolor--gradient-blue">
+      <span class="text-light">
+        About us <i class="fa fa-arrow-right"></i>
+      </span>
+    </button>
+    <a href="#about" class="icon--large rounded-circle bgcolor--yellow">
+      <i class="fa fa-arrow-down text-dark"></i>
+    </a>
+  </div>
+</section>
+  
+<section
+  class="hero container-fluid"
+  id="#hero"
+  style="background-image: url(assets/design/hero-image.jpg);"
+>
+  <div class="card__wrapper col-sm-12 col-md-6 col-lg-6 mb-5">
+    <h3 class="card__title" style="background-image: url(assets/design/hero-image.jpg);">"</h3>
+    <blockquote class="blockquote">
+      <p class="mb-0 text-dark text-bold">
+        The optics technology allows a longer lifespan and much more comfortable
+        tactile experience.
+      </p>
+      <footer class="blockquote-footer text-dark text-bold">
+        <cite title="Technical Operations">Technical Operations</cite>
+      </footer>
+    </blockquote>
+  </div>
+</section>
+
+  <section class="container my-5" id="#product">
+  <div class="col-sm-12 col-md-12 col-lg-8 my-5 mx-auto">
+    <div class="text-primary font-weight-bold text-center">Our services</div>
+    <h2 class="text-center mb-3">We help you win any games.</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <article class="row card__wrapper--small">
+            <img
+              src="assets/design/blue-smt.jpg"
+              alt="blue"
+              class="col-4 card__image"
+            />
+            <h2 class="col-8 card__title">Optical Blue Switch</h2>
+            <p class="col-12 text-muted">
+              Our premium products provide good electrical conductivity. The
+              optics switches deliver superior audio and tactile feedback. 100
+              million times keystroke test, 50 grams’ key force and 4.0+/-0.2mm
+              stroke travel. An optimal choice for gamer, programmer, writer,
+              typist and etc.
+            </p>
+          </article>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <article class="row card__wrapper--small">
+            <img
+              src="assets/design/black-smt.jpg"
+              alt="black"
+              class="col-4 card__image"
+            />
+            <h2 class="col-8 card__title">Optical Black Switch</h2>
+            <p class="col-12 text-muted">
+              Our premium products provide good electrical conductivity. The
+              optics switches deliver superior audio and tactile feedback. 100
+              million times keystroke test, 50 grams’ key force and 4.0+/-0.2mm
+              stroke travel. An optimal choice for gamer, programmer, writer,
+              typist and etc.
+            </p>
+          </article>
+        </div>
+        <div class="w-100"></div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <article class="row card__wrapper--small">
+            <img
+              src="assets/design/brown-smt.jpg"
+              alt="brown"
+              class="col-4 card__image"
+            />
+            <h2 class="col-8 card__title">Optical Brown Switch</h2>
+            <p class="col-12 text-muted">
+              Our premium products provide good electrical conductivity. The
+              optics switches deliver superior audio and tactile feedback. 100
+              million times keystroke test, 50 grams’ key force and 4.0+/-0.2mm
+              stroke travel. An optimal choice for gamer, programmer, writer,
+              typist and etc.
+            </p>
+          </article>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <article class="row card__wrapper--small">
+            <img
+              src="assets/design/red-smt.jpg"
+              alt="red"
+              class="col-4 card__image"
+            />
+            <h2 class="col-8 card__title">Optical Brown Switch</h2>
+            <p class="col-12 text-muted">
+              Our premium products provide good electrical conductivity. The
+              optics switches deliver superior audio and tactile feedback. 100
+              million times keystroke test, 50 grams’ key force and 4.0+/-0.2mm
+              stroke travel. An optimal choice for gamer, programmer, writer,
+              typist and etc.
+            </p>
+          </article>
+        </div>
+      </div>
     </div>
+    <button class="btn rounded-pill bgcolor--gradient-blue text-light">
+      Our services <i class="fa fa-arrow-right"></i>
+    </button>
+  </div>
+</section>
+
+  <section class="row" id="#about">
+  <div class="col-sm-12 col-md-6 col-lg-6 mb-5 hero" style="background-image: url(assets/design/about-background.png);">
+    <div class="card__wrapper">
+      <h3 class="card__title" style="background-image: url(assets/design/about-background.png);"><i class="fa fa-clock"></i></h3>
+      <blockquote class="blockquote">
+        <p class="mb-0 text-dark text-bold">Trust our expertise over 45 years Ceramics experience</p>
+      </blockquote>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-6 col-lg-6 my-5">
+    <div class="text-primary font-weight-bold text-center">Our services</div>
+    <h2 class="text-center">We help you win any games.</h2>
+    <p class="text-muted">
+      Our premium products provide good electrical conductivity. The optics switches deliver superior audio and tactile feedback. 100 million times keystroke test, 50 grams’ key force and 4.0+/-0.2mm stroke travel. An optimal choice for gamer, programmer, writer, typist and etc.
+    </p>
+    <p class="text-muted">
+      This keyboard switch is made of top graded POM, PC and metal material, with matte-finish texture, sturdy and robust enough to protect it from scratch. 
+    </p>
+    <button class="btn rounded-pill bgcolor--gradient-blue text-light">
+      About us <i class="fa fa-arrow-right"></i>
+    </button>
+  </div>
+</section>
+
+  <div  class="container d-flex flex-column p-2 my-5" id="case">
+  <div class="text-primary font-weight-bold text-center">Our Clients</div>
+  <h2 class="text-center">Trust our Client</h2>
+
+  <div class="owl-carousel owl-theme">
+    <div class="d-flex justify-content-center align-items-center">
+
+      <article class="col-sm-12 col-md-6 col-lg-6 mb-5">
+        <img style="background-image:url(assets/design/client-Kayla_Person.jpg)" class="rounded-circle mb-3 slider__item" />
+        <span class="text-primary mb-2">Product Manager of Logitech</span>
+        <p>Understanding various aspects of the global wireless keyboard market, Persistence Market Research has conducted a research study on wireless keyboards across the globe and has presented all insights in a recent research publication titled “Wireless Keyboard Market: Global Industry Analysis (2012-2016) and Forecast (2017-2025).”</p>
+      </article>
+    </div>
+    <div class="d-flex justify-content-center align-items-center">
+
+      <article class="col-sm-12 col-md-6 col-lg-6 mb-5">
+        <img style="background-image:url(assets/design/client-Keanu_Reeves.jpg)" class="rounded-circle mb-3 slider__item" />
+        <span class="text-primary mb-2">Outemu Keyboard Switch User</span>
+        <p>With OUTEMU optical-mechanical brown switches, you will get a chance to enjoy the most delighting typing experience. Each input will be recorded and delivered at the moment you click them.</p>
+      </article>
+    </div>
+    <div class="d-flex justify-content-center align-items-center">
+
+      <article class="col-sm-12 col-md-6 col-lg-6 mb-5">
+        <img style="background-image:url(assets/design/client-Parson_Root.jpg)" class="rounded-circle mb-3 slider__item" />
+        <span class="text-primary mb-2">CEO Gametech Merch.</span>
+        <p>Mechanical keyboard switches usually have lifetimes measured in millions of presses, but that’s just how long the contacts physically work. The feel of the switch may change over time. Hall-effect switches have existed for years, but they’ve always been expensive and incompatible with most modern keyboards. Oetemu changes it all.</p>
+      </article>
+    </div>
+  </div>
+</div>
+
+
+
+	<!-- section 3 -->
+		<footer class="container mastfoot bg-white py-4 border-top">
+  <div class="inner container">
+    <div class="row justify-content-between flex-md-row-reverse">
+      <div class="row col-md-6 justify-content-md-end justify-content-center">
+        <div class="col-md-6">
+          <p>Contact us</p>
+
+          <address>
+            <a class="text-muted" href="mailto:sale@cngaote.com.cn"
+              >sale@cngaote.com.cn</a
+            ><br />
+            <a class="text-muted" href="tel:+8676987816655"
+              >+86-769-87816655</a
+            >
+            <a class="text-muted" href="http://www.dggaote.com.com"
+              >+61 (0) 3 8376-6284</a
+            >
+          </address>
+        </div>
+        <div class="col-md-6">
+          <p>Location</p>
+
+          <address>
+            <span class="text-muted"> Zhenxingwei Industrial Zone</span><br />
+            <span class="text-muted"> Tangxia Town</span><br />
+            <span class="text-muted"> Dongguan City</span><br />
+            <span class="text-muted"> Guandong Province</span><br />
+            <span class="text-muted"> P.R.C</span>
+          </address>
+        </div>
+      </div>
+
+      <div
+        class="col-md-6 align-items-center justify-content-md-start justify-content-center"
+      >
+        <img
+          src="assets/design/brand.png"
+          class="img-fluid mb-5"
+          alt="brand image"
+        />
+        <nav class="nav nav-mastfoot mb-3">
+          <a
+            href="#fb"
+            class="nav-link mx-1 p-2 rounded-circle text-light bgcolor--facebook"
+          >
+            <span class="icon">
+              <i class="fab fa-facebook-f"></i>
+            </span>
+          </a>
+          <a
+            href="#twitter"
+            class="nav-link mx-1 p-2 rounded-circle text-light bgcolor--twitter"
+          >
+            <span class="icon">
+              <i class="fab fa-twitter"></i>
+            </span>
+          </a>
+          <a
+            href="#hero"
+            class="nav-link position-fixed mr-2 text-dark bottom-right"
+          >
+            <span class="font-weight-bold">Back to top</span>
+            <span class="icon rounded-circle bgcolor--yellow">
+              <i class="fa fa-arrow-up"></i>
+            </span>
+          </a>
+        </nav>
+        <p class="mb-0">Copyright © 2019 by © Dongguan Gaote Electronics Co.,Ltd All Rights Reserved.</p>
+      </div>
+    </div>
+  </div>
 </footer>
+
+
 </body>
 	<!-- External JS -->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-
+	<script src="https://unpkg.com/@popperjs/core@2"></script>
+	
 	<!-- Plugin JS -->
 	<script src="assets/js/plugin.min.js "></script>
 	
 	<!-- Main JS -->
 	<script src="assets/js/app.min.js "></script>
-</body>
 </html>
+
