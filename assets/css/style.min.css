@@ -6973,9 +6973,9 @@ button.close {
 .icon--large {
   display: inline-block;
   text-align: center;
-  padding: 6px 12px; }
-  .icon--large i {
-    line-height: 14px; }
+  padding: 6px 12px;
+  width: 36px;
+  min-height: 36px; }
 
 .bottom-right {
   right: 0;
