@@ -7296,6 +7296,10 @@ button.close {
   align-items: center;
   flex-basis: auto;
   width: 100%; }
+  .owl-nav .owl-next:hover,
+  .owl-nav .owl-prev:hover {
+    outline: none;
+    background: none !important; }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: #fee52c; }
