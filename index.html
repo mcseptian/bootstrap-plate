@@ -5,13 +5,12 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Bootstrap Plate</title>
-    <meta name="description" content="">
+    <title>Eureka2</title>
+    <meta name="description" content="Project for training 2">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/css/plugins/font-awesome/all.css">
     
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/plugin.min.css">
@@ -22,75 +21,114 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
 
 </head>
-<body>
-<body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+<body>	<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+  <a class="navbar-brand" href="#home">
+    <img src="assets/design/brand.png" class="img-fluid" alt="brand image" />
+  </a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div
+    class="collapse navbar-collapse justify-content-end"
+    id="navbarSupportedContent"
+  >
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home"
+          >Home<span class="sr-only">(current)</span></a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#portofolio">Portofolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About Us</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="navbarDropdown"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Shop
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#product">Table</a>
+          <a class="dropdown-item" href="#product">Chair</a>
+          <a class="dropdown-item" href="#product">Mug</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#product">Watch</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#blog">Blog</a>
+      </li>
+    </ul>
+  </div>
+</nav>	<section class="container bg-light text-dark o-hidden position-relative">
+    <div class="row position-absolute ">
+        <div class="col-12"></div>
     </div>
-</nav>	<footer class="mastfoot bg-white py-4 border-top">
-    <div class="inner container">
+</section>
+<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+    <li class="nav-item">
+        <a class="nav-link active" id="pills-all-tab" data-toggle="pill" href="#pills-all" role="tab"
+            aria-controls="pills-all" aria-selected="true">ALL</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="pills-branding-tab" data-toggle="pill" href="#pills-branding" role="tab"
+            aria-controls="pills-branding" aria-selected="false">BRANDING</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="pills-photo-tab" data-toggle="pill" href="#pills-photo" role="tab"
+            aria-controls="pills-photo" aria-selected="false">PHOTO</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="pills-print-tab" data-toggle="pill" href="#pills-print" role="tab"
+            aria-controls="pills-print" aria-selected="false">PRINT</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="pills-website-tab" data-toggle="pill" href="#pills-website" role="tab"
+            aria-controls="pills-website" aria-selected="false">WEBSITE</a>
+    </li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+        <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'></div>
+    </div>
+    <div class="tab-pane fade" id="pills-branding" role="tabpanel" aria-labelledby="pills-branding-tab">
+        <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'></div>
+    </div>
+    <div class="tab-pane fade" id="pills-photo" role="tabpanel" aria-labelledby="pills-photo-tab">
+        <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'></div>
+    </div>
+    <div class="tab-pane fade" id="pills-print" role="tabpanel" aria-labelledby="pills-print-tab">
+        <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'></div>
+    </div>
+    <div class="tab-pane fade" id="pills-website" role="tabpanel" aria-labelledby="pills-website-tab">
+        <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'></div>
+    </div>
+</div>	<footer class="footer bg-light py-4 border-top">
+    <div class="container">
          <div class="row">
          	<div class="col-md-6 d-flex align-items-center justify-content-md-start justify-content-center">
-         		<p class="mb-0">© 2019. All Right Reserved</p>
+         		<p class="mb-0">© DuckyChannel International Co., Ltd. All Rights Reserved.</p>
          	</div>
-           
-            <div class="col-md-6">
-            	<nav class="nav nav-mastfoot justify-content-md-end justify-content-center">
-	                <a class="nav-link" href="#">
-	                	<i class="icon-facebook"></i>
-	                </a>
-	                <a class="nav-link" href="#">
-	                	<i class="icon-twitter"></i>
-	                </a>
-	                <a class="nav-link" href="#">
-	                	<i class="icon-instagram"></i>
-	                </a>
-	                <a class="nav-link" href="#">
-	                	<i class="icon-linkedin"></i>
-	                </a>
-	                <a class="nav-link" href="#">
-	                	<i class="icon-youtube"></i>
-	                </a>
-	                <a class="nav-link" href="#">
-	                	<i class="icon-pinterest"></i>
-	                </a>
-	            </nav>
-            </div>
-            
         </div>
     </div>
-</footer></body>
-	<!-- External JS -->
+</footer>	<!-- External JS -->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
 
 	<!-- Plugin JS -->
