@@ -9,7 +9,7 @@
         // ==============================================================================================
 
         init: function($) {
-            // app.select2();
+            app.masonry();
         },
 
         onResize: function() {
@@ -20,9 +20,12 @@
         // Your function here
         // * Don't forget to use proper function name to describes your function
         // ======================================================================
-        select2: function() {
+        masonry: function() {
             $(document).ready(function() {
-                $("select").select2();
+                $('.grid').masonry({
+                    gutter: 10,
+                    horizontalOrder: true
+                });
             });
         },
     }
