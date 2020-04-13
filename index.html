@@ -23,7 +23,7 @@
 </head>
 <body>	<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
   <a class="navbar-brand" href="#home">
-    <img src="assets/design/brand.png" class="img-fluid" alt="brand image" />
+    <img src="assets/image/brand.png" class="img-fluid" alt="brand image" />
   </a>
   <button
     class="navbar-toggler"
@@ -82,56 +82,57 @@
         <div class="col-12"></div>
     </div>
 </section>
-<ul class="nav nav-pills nav-fill px-5" id="pills-tab" role="tablist">
-    <li class="nav-item">
-        <a class="nav-link active" id="pills-all-tab" data-toggle="pill" href="#pills-all" role="tab"
-            aria-controls="pills-all" aria-selected="true">ALL</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" id="pills-branding-tab" data-toggle="pill" href="#pills-branding" role="tab"
-            aria-controls="pills-branding" aria-selected="false">BRANDING</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" id="pills-photo-tab" data-toggle="pill" href="#pills-photo" role="tab"
-            aria-controls="pills-photo" aria-selected="false">PHOTO</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" id="pills-print-tab" data-toggle="pill" href="#pills-print" role="tab"
-            aria-controls="pills-print" aria-selected="false">PRINT</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" id="pills-website-tab" data-toggle="pill" href="#pills-website" role="tab"
-            aria-controls="pills-website" aria-selected="false">WEBSITE</a>
-    </li>
-</ul>
-<div class="tab-content" id="pills-tabContent">
-    <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
-        <div class="grid">
+<div class="container">
+    <ul class="row nav nav-pills nav-fill px-5" id="pills-tab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="pills-all-tab" data-toggle="pill" href="#pills-all" role="tab"
+                aria-controls="pills-all" aria-selected="true">ALL</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="pills-branding-tab" data-toggle="pill" href="#pills-branding" role="tab"
+                aria-controls="pills-branding" aria-selected="false">BRANDING</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="pills-photo-tab" data-toggle="pill" href="#pills-photo" role="tab"
+                aria-controls="pills-photo" aria-selected="false">PHOTO</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="pills-print-tab" data-toggle="pill" href="#pills-print" role="tab"
+                aria-controls="pills-print" aria-selected="false">PRINT</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="pills-website-tab" data-toggle="pill" href="#pills-website" role="tab"
+                aria-controls="pills-website" aria-selected="false">WEBSITE</a>
+        </li>
+    </ul>
+    <div class="row tab-content px-5" id="pills-tabContent">
+        <div class="col-12 tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"></div>
+        <div class="col-12 grid">
             <div class="grid-sizer"></div>
-            <img class="grid-item" src="http://placekitten.com/g/200/200" alt="200x300">
             <div class="gutter-sizer"></div>
-            <img class="grid-item-2" src="http://placekitten.com/g/800/800" alt="800x800">
+            <img class="grid-item" src="http://placekitten.com/g/200/200" alt="800x800">
+            <img class="grid-item" src="http://placekitten.com/g/200/200" alt="800x800">
             <img class="grid-item" src="http://placekitten.com/g/400/400" alt="400x400">
-            <img class="grid-item" src="http://placekitten.com/g/1000/700" alt="1000x700">
-            <img class="grid-item" src="http://placekitten.com/g/300/300" alt="300x300">
-            <img class="grid-item" src="http://placekitten.com/g/100/300" alt="100x300">
+            <img class="grid-item" src="http://placekitten.com/g/400/700" alt="1000x700">
+            <img class="grid-item" src="http://placekitten.com/g/200/300" alt="300x300">
+            <img class="grid-item" src="http://placekitten.com/g/400/300" alt="100x300">
         </div>
     </div>
     <div class="tab-pane fade" id="pills-branding" role="tabpanel" aria-labelledby="pills-branding-tab">
-        <div class="grid js-masonry" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200, gutter: 32, percentPosition: true
-        horizontalOrder: true }'></div>
+        <div class="grid js-masonry" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200, "gutter": 32, "percentPosition": true
+        "horizontalOrder": true }'></div>
     </div>
     <div class="tab-pane fade" id="pills-photo" role="tabpanel" aria-labelledby="pills-photo-tab">
-        <div class="grid js-masonry" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200, gutter: 32,
-        horizontalOrder: true }'></div>
+        <div class="grid js-masonry" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200, "gutter": 32,
+        "horizontalOrder": true }'></div>
     </div>
     <div class="tab-pane fade" id="pills-print" role="tabpanel" aria-labelledby="pills-print-tab">
-        <div class="grid js-masonry" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200, gutter: 32,
-        horizontalOrder: true }'></div>
+        <div class="grid js-masonry" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200, "gutter": 32,
+        "horizontalOrder": true }'></div>
     </div>
     <div class="tab-pane fade" id="pills-website" role="tabpanel" aria-labelledby="pills-website-tab">
-        <div class="grid js-masonry" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200, gutter: 32,
-        horizontalOrder: true }'></div>
+        <div class="grid js-masonry" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200, "gutter": 32,
+        "horizontalOrder": true }'></div>
     </div>
 </div>	<footer class="footer bg-light py-4 border-top">
     <div class="container">

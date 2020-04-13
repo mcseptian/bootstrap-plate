@@ -23,13 +23,21 @@
         masonry: function() {
             $(document).ready(function() {
                 $('.grid').masonry({
-                    columnWidth: 200,
-                    gutter: 16,
-                    horizontalOrder: false,
+                    itemSelector: '.grid-item',
+                    columnWidth: '.grid-sizer',
+                    gutter: '.gutter-sizer',
                     percentPosition: true
                 });
             });
         },
+
+        logLayout: function(){
+            this.masonry.on( 'layoutComplete', this.onLayout );
+        },
+
+        onLayout: function(){
+            console.log('layouting complete');
+        }
     }
 
     $(document).ready(function () {
