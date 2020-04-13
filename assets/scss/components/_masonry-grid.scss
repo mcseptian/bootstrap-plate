@@ -4,7 +4,7 @@
   margin: 2rem auto;
   &-sizer { width: 120px; }
   // sizer relative to .grid container
-  .gutter-sizer { width: 10%; }
+  .gutter-sizer { width: 32px; }
   // gutter is doubled, so each item minus half of it
 
   &-item {

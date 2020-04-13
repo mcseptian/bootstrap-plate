@@ -9,7 +9,7 @@
         // ==============================================================================================
 
         init: function($) {
-            // app.masonry();
+            app.masonry();
         },
 
         onResize: function() {
@@ -23,8 +23,10 @@
         masonry: function() {
             $(document).ready(function() {
                 $('.grid').masonry({
-                    gutter: 10,
-                    horizontalOrder: true
+                    columnWidth: 200,
+                    gutter: 16,
+                    horizontalOrder: false,
+                    percentPosition: true
                 });
             });
         },

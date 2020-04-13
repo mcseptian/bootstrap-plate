@@ -7030,7 +7030,7 @@ a.text-dark:hover, a.text-dark:focus {
   .grid-sizer {
     width: 120px; }
   .grid .gutter-sizer {
-    width: 10%; }
+    width: 32px; }
   .grid-item {
     display: block;
     width: 20%;

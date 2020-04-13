@@ -3,7 +3,7 @@
         <div class="col-12"></div>
     </div>
 </section>
-<ul class="nav nav-pills nav-fill mx-5 mb-3 px-5" id="pills-tab" role="tablist">
+<ul class="nav nav-pills nav-fill px-5" id="pills-tab" role="tablist">
     <li class="nav-item">
         <a class="nav-link active" id="pills-all-tab" data-toggle="pill" href="#pills-all" role="tab"
             aria-controls="pills-all" aria-selected="true">ALL</a>
@@ -27,14 +27,15 @@
 </ul>
 <div class="tab-content" id="pills-tabContent">
     <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
-        <div class="grid js-masonry" data-masonry='{ "itemSelector": ".grid-item", gutter: ".gutter-sizer", "columnWidth": ".grid-sizer",
-        horizontalOrder: false }'>
-        <img class="grid-item" src="http://placekitten.com/g/200/200" alt="200x300">
-        <img class="grid-item-2" src="http://placekitten.com/g/800/800" alt="800x800">
-        <img class="grid-item" src="http://placekitten.com/g/400/400" alt="400x400">
-        <img class="grid-item" src="http://placekitten.com/g/1000/700" alt="1000x700">
-        <img class="grid-item" src="http://placekitten.com/g/300/300" alt="300x300">
-        <img class="grid-item" src="http://placekitten.com/g/100/300" alt="100x300">
+        <div class="grid">
+            <div class="grid-sizer"></div>
+            <img class="grid-item" src="http://placekitten.com/g/200/200" alt="200x300">
+            <div class="gutter-sizer"></div>
+            <img class="grid-item-2" src="http://placekitten.com/g/800/800" alt="800x800">
+            <img class="grid-item" src="http://placekitten.com/g/400/400" alt="400x400">
+            <img class="grid-item" src="http://placekitten.com/g/1000/700" alt="1000x700">
+            <img class="grid-item" src="http://placekitten.com/g/300/300" alt="300x300">
+            <img class="grid-item" src="http://placekitten.com/g/100/300" alt="100x300">
         </div>
     </div>
     <div class="tab-pane fade" id="pills-branding" role="tabpanel" aria-labelledby="pills-branding-tab">
