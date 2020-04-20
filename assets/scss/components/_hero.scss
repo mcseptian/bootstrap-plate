@@ -1,0 +1,9 @@
+.hero {
+  background-image: url("assets/image/HERO.jpeg");
+  background-position: center;
+  background-size: cover;
+
+  &__image {
+    align-self: flex-end;
+  }
+}
