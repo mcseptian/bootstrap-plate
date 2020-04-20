@@ -1,9 +1,13 @@
 .hero {
-  background-image: url("assets/image/HERO.jpeg");
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  height: 80vh;
+  background-image: url("../../assets/image/HERO.jpeg");
   background-position: center;
   background-size: cover;
 
   &__image {
-    align-self: flex-end;
+    align-self: center;
   }
 }
